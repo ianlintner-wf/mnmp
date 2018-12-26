@@ -24,4 +24,3 @@ phpbrew install 7.2 $php_args
 
 phpbrew ext install memcached
 phpbrew ext install xdebug
-phpbrew ext install
