@@ -7,6 +7,8 @@ sudo mv phpbrew /usr/local/bin/phpbrew
 
 phpbrew init
 
+phpbrew lookup-prefix homebrew
+
 php_args="+dba +ipv6 +dom +calendar +wddx +static +inifile +inline +cli +ftp +filter +zts +json +hash +exif +mbstring +mbregex +libgcc +pdo +posix +embed +sockets +debug +phpdbg +zip +bcmath +fileinfo +ctype +cgi +soap +pcntl +phar +session +tokenizer +opcache +imap +ldap +tidy +kerberos +xmlrpc +fpm +dtrace +pcre +mhash +mcrypt +zlib +curl +readline +editline +gd +intl +icu +mysql +sqlite +pgsql +gettext +iconv +bz2 +ipc +gmp +pear +openssl='/usr/local/opt/openssl/'"
 
 phpbrew lookup-prefix homebrew
